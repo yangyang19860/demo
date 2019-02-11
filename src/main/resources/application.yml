@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    data-password: root
+    url:
+
+  redis:
+    url:
+    database:
+    host:
+    jedis:
+      pool:
+        max-active:
+        max-wait:
+        max-idle:
+        min-idle:
